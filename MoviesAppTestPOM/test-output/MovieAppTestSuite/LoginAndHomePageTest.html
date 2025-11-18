@@ -1,0 +1,215 @@
+<html>
+<head>
+<title>TestNG:  LoginAndHomePageTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>LoginAndHomePageTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>27/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 15 01:39:56 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>113 seconds (113228 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='LogInPageTest.testLogInPageWithEmptyInputs()'><b>testLogInPageWithEmptyInputs</b><br>Test class: LogInPageTest</td>
+<td></td>
+<td>5</td>
+<td>LogInPageTest@26275bef</td></tr>
+<tr>
+<td title='MovieDetailsPageTest.similarMovieContainer()'><b>similarMovieContainer</b><br>Test class: MovieDetailsPageTest</td>
+<td></td>
+<td>0</td>
+<td>MovieDetailsPageTest@69997e9d</td></tr>
+<tr>
+<td title='LogInPageTest.testLogInPageUI()'><b>testLogInPageUI</b><br>Test class: LogInPageTest</td>
+<td></td>
+<td>5</td>
+<td>LogInPageTest@26275bef</td></tr>
+<tr>
+<td title='HomePageTest.MovieTestActiveSlideCount()'><b>MovieTestActiveSlideCount</b><br>Test class: HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>HomePageTest@29d89d5d</td></tr>
+<tr>
+<td title='PopularPageTest.PopularPageUI()'><b>PopularPageUI</b><br>Test class: PopularPageTest</td>
+<td></td>
+<td>3</td>
+<td>PopularPageTest@212b5695</td></tr>
+<tr>
+<td title='HomePageTest.testContactUsDisplayed()'><b>testContactUsDisplayed</b><br>Test class: HomePageTest</td>
+<td></td>
+<td>1</td>
+<td>HomePageTest@29d89d5d</td></tr>
+<tr>
+<td title='HomePageTest.testTrendingAndOriginalMoviesDisplayed()'><b>testTrendingAndOriginalMoviesDisplayed</b><br>Test class: HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>HomePageTest@29d89d5d</td></tr>
+<tr>
+<td title='LogInPageTest.testLogInPageWithValidCredentials()'><b>testLogInPageWithValidCredentials</b><br>Test class: LogInPageTest</td>
+<td></td>
+<td>1</td>
+<td>LogInPageTest@26275bef</td></tr>
+<tr>
+<td title='AccountPageTest.TestAccountPageUiElements()'><b>TestAccountPageUiElements</b><br>Test class: AccountPageTest</td>
+<td></td>
+<td>4</td>
+<td>AccountPageTest@793be5ca</td></tr>
+<tr>
+<td title='LogInPageTest.testLogInPageWithEmptyPassWord()'><b>testLogInPageWithEmptyPassWord</b><br>Test class: LogInPageTest</td>
+<td></td>
+<td>1</td>
+<td>LogInPageTest@26275bef</td></tr>
+<tr>
+<td title='HomePageTest.MovieTestIsDunePosterVisible()'><b>MovieTestIsDunePosterVisible</b><br>Test class: HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>HomePageTest@29d89d5d</td></tr>
+<tr>
+<td title='PopularPageTest.movieSearch()'><b>movieSearch</b><br>Test class: PopularPageTest</td>
+<td></td>
+<td>7</td>
+<td>PopularPageTest@212b5695</td></tr>
+<tr>
+<td title='MovieDetailsPageTest.TestMovieDetailPage()'><b>TestMovieDetailPage</b><br>Test class: MovieDetailsPageTest</td>
+<td></td>
+<td>1</td>
+<td>MovieDetailsPageTest@69997e9d</td></tr>
+<tr>
+<td title='HomePageTest.Buttonclick()'><b>Buttonclick</b><br>Test class: HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>HomePageTest@29d89d5d</td></tr>
+<tr>
+<td title='MovieDetailsPageTest.TestMovieDetailCategoriesContainer()'><b>TestMovieDetailCategoriesContainer</b><br>Test class: MovieDetailsPageTest</td>
+<td></td>
+<td>7</td>
+<td>MovieDetailsPageTest@69997e9d</td></tr>
+<tr>
+<td title='SearchPageTest.FailureSearchFunctionality()'><b>FailureSearchFunctionality</b><br>Test class: SearchPageTest</td>
+<td></td>
+<td>2</td>
+<td>SearchPageTest@446293d</td></tr>
+<tr>
+<td title='HomePageTest.MovieTestFunctionalityLinkCount()'><b>MovieTestFunctionalityLinkCount</b><br>Test class: HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>HomePageTest@29d89d5d</td></tr>
+<tr>
+<td title='HomePageTest.MovieTestisSlideIndexThreeVisible()'><b>MovieTestisSlideIndexThreeVisible</b><br>Test class: HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>HomePageTest@29d89d5d</td></tr>
+<tr>
+<td title='AccountPageTest.LogOutFunctionality()'><b>LogOutFunctionality</b><br>Test class: AccountPageTest</td>
+<td></td>
+<td>2</td>
+<td>AccountPageTest@793be5ca</td></tr>
+<tr>
+<td title='HeaderSection.HeaderSectionUI()'><b>HeaderSectionUI</b><br>Test class: HeaderSection</td>
+<td></td>
+<td>5</td>
+<td>HeaderSection@3514a4c0</td></tr>
+<tr>
+<td title='HeaderSection.HeaderSectionFunctionalities()'><b>HeaderSectionFunctionalities</b><br>Test class: HeaderSection</td>
+<td></td>
+<td>0</td>
+<td>HeaderSection@3514a4c0</td></tr>
+<tr>
+<td title='LogInPageTest.testLogInPageWithInvalidCredentials()'><b>testLogInPageWithInvalidCredentials</b><br>Test class: LogInPageTest</td>
+<td></td>
+<td>2</td>
+<td>LogInPageTest@26275bef</td></tr>
+<tr>
+<td title='LogInPageTest.testLogInWithEmptyUserName()'><b>testLogInWithEmptyUserName</b><br>Test class: LogInPageTest</td>
+<td></td>
+<td>5</td>
+<td>LogInPageTest@26275bef</td></tr>
+<tr>
+<td title='HomePageTest.MovieTestPrintPosterTest()'><b>MovieTestPrintPosterTest</b><br>Test class: HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>HomePageTest@29d89d5d</td></tr>
+<tr>
+<td title='HomePageTest.TestHomePageHeading()'><b>TestHomePageHeading</b><br>Test class: HomePageTest</td>
+<td></td>
+<td>2</td>
+<td>HomePageTest@29d89d5d</td></tr>
+<tr>
+<td title='MovieDetailsPageTest.footerContainer()'><b>footerContainer</b><br>Test class: MovieDetailsPageTest</td>
+<td></td>
+<td>2</td>
+<td>MovieDetailsPageTest@69997e9d</td></tr>
+<tr>
+<td title='SearchPageTest.SearchFunctionality()'><b>SearchFunctionality</b><br>Test class: SearchPageTest</td>
+<td></td>
+<td>32</td>
+<td>SearchPageTest@446293d</td></tr>
+</table><p>
+</body>
+</html>

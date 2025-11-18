@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="27" passed="27" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-15T01:39:56 IST" name="MovieAppTestSuite" finished-at="2025-10-15T01:41:49 IST" duration-ms="113228">
+    <groups>
+    </groups>
+    <test started-at="2025-10-15T01:39:56 IST" name="LoginAndHomePageTest" finished-at="2025-10-15T01:41:49 IST" duration-ms="113228">
+      <class name="SearchPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SearchPageTest@446293d]" started-at="2025-10-15T01:39:56 IST" name="setUp" finished-at="2025-10-15T01:40:21 IST" duration-ms="24329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SearchFunctionality()[pri:1, instance:SearchPageTest@446293d]" started-at="2025-10-15T01:40:21 IST" name="SearchFunctionality" finished-at="2025-10-15T01:40:53 IST" duration-ms="32695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SearchPageTest@446293d]" started-at="2025-10-15T01:40:53 IST" name="tearDown" finished-at="2025-10-15T01:40:55 IST" duration-ms="1384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SearchPageTest@446293d]" started-at="2025-10-15T01:40:55 IST" name="setUp" finished-at="2025-10-15T01:41:10 IST" duration-ms="14971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="FailureSearchFunctionality()[pri:2, instance:SearchPageTest@446293d]" started-at="2025-10-15T01:41:10 IST" name="FailureSearchFunctionality" finished-at="2025-10-15T01:41:12 IST" duration-ms="2212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FailureSearchFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SearchPageTest@446293d]" started-at="2025-10-15T01:41:12 IST" name="tearDown" finished-at="2025-10-15T01:41:17 IST" duration-ms="4848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SearchPageTest -->
+      <class name="MovieDetailsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:MovieDetailsPageTest@69997e9d]" started-at="2025-10-15T01:39:56 IST" name="setUp" finished-at="2025-10-15T01:40:24 IST" duration-ms="27778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestMovieDetailPage()[pri:1, instance:MovieDetailsPageTest@69997e9d]" started-at="2025-10-15T01:40:24 IST" name="TestMovieDetailPage" finished-at="2025-10-15T01:40:25 IST" duration-ms="1249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMovieDetailPage -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:MovieDetailsPageTest@69997e9d]" started-at="2025-10-15T01:40:25 IST" name="TearDown" finished-at="2025-10-15T01:40:29 IST" duration-ms="3300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:MovieDetailsPageTest@69997e9d]" started-at="2025-10-15T01:40:29 IST" name="setUp" finished-at="2025-10-15T01:40:48 IST" duration-ms="19212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestMovieDetailCategoriesContainer()[pri:2, instance:MovieDetailsPageTest@69997e9d]" started-at="2025-10-15T01:40:48 IST" name="TestMovieDetailCategoriesContainer" finished-at="2025-10-15T01:40:55 IST" duration-ms="7615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMovieDetailCategoriesContainer -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:MovieDetailsPageTest@69997e9d]" started-at="2025-10-15T01:40:55 IST" name="TearDown" finished-at="2025-10-15T01:41:04 IST" duration-ms="8287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:MovieDetailsPageTest@69997e9d]" started-at="2025-10-15T01:41:04 IST" name="setUp" finished-at="2025-10-15T01:41:12 IST" duration-ms="8666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="footerContainer()[pri:3, instance:MovieDetailsPageTest@69997e9d]" started-at="2025-10-15T01:41:12 IST" name="footerContainer" finished-at="2025-10-15T01:41:15 IST" duration-ms="2603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerContainer -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:MovieDetailsPageTest@69997e9d]" started-at="2025-10-15T01:41:15 IST" name="TearDown" finished-at="2025-10-15T01:41:17 IST" duration-ms="2050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:MovieDetailsPageTest@69997e9d]" started-at="2025-10-15T01:41:17 IST" name="setUp" finished-at="2025-10-15T01:41:23 IST" duration-ms="6015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="similarMovieContainer()[pri:4, instance:MovieDetailsPageTest@69997e9d]" started-at="2025-10-15T01:41:23 IST" name="similarMovieContainer" finished-at="2025-10-15T01:41:24 IST" duration-ms="759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- similarMovieContainer -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:MovieDetailsPageTest@69997e9d]" started-at="2025-10-15T01:41:24 IST" name="TearDown" finished-at="2025-10-15T01:41:25 IST" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- MovieDetailsPageTest -->
+      <class name="LogInPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:LogInPageTest@26275bef]" started-at="2025-10-15T01:39:56 IST" name="setUp" finished-at="2025-10-15T01:40:12 IST" duration-ms="16142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogInPageUI()[pri:0, instance:LogInPageTest@26275bef]" started-at="2025-10-15T01:40:13 IST" name="testLogInPageUI" finished-at="2025-10-15T01:40:19 IST" duration-ms="5601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInPageUI -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LogInPageTest@26275bef]" started-at="2025-10-15T01:40:19 IST" name="tearDown" finished-at="2025-10-15T01:40:29 IST" duration-ms="9920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:LogInPageTest@26275bef]" started-at="2025-10-15T01:40:29 IST" name="setUp" finished-at="2025-10-15T01:40:40 IST" duration-ms="11306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogInPageWithEmptyInputs()[pri:1, instance:LogInPageTest@26275bef]" started-at="2025-10-15T01:40:40 IST" name="testLogInPageWithEmptyInputs" finished-at="2025-10-15T01:40:45 IST" duration-ms="5278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInPageWithEmptyInputs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LogInPageTest@26275bef]" started-at="2025-10-15T01:40:45 IST" name="tearDown" finished-at="2025-10-15T01:40:52 IST" duration-ms="6617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:LogInPageTest@26275bef]" started-at="2025-10-15T01:40:52 IST" name="setUp" finished-at="2025-10-15T01:41:04 IST" duration-ms="11791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogInWithEmptyUserName()[pri:2, instance:LogInPageTest@26275bef]" started-at="2025-10-15T01:41:04 IST" name="testLogInWithEmptyUserName" finished-at="2025-10-15T01:41:09 IST" duration-ms="5538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInWithEmptyUserName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LogInPageTest@26275bef]" started-at="2025-10-15T01:41:09 IST" name="tearDown" finished-at="2025-10-15T01:41:12 IST" duration-ms="2717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:LogInPageTest@26275bef]" started-at="2025-10-15T01:41:12 IST" name="setUp" finished-at="2025-10-15T01:41:16 IST" duration-ms="4407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogInPageWithEmptyPassWord()[pri:3, instance:LogInPageTest@26275bef]" started-at="2025-10-15T01:41:16 IST" name="testLogInPageWithEmptyPassWord" finished-at="2025-10-15T01:41:17 IST" duration-ms="1201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInPageWithEmptyPassWord -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LogInPageTest@26275bef]" started-at="2025-10-15T01:41:17 IST" name="tearDown" finished-at="2025-10-15T01:41:18 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:LogInPageTest@26275bef]" started-at="2025-10-15T01:41:18 IST" name="setUp" finished-at="2025-10-15T01:41:21 IST" duration-ms="3684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogInPageWithInvalidCredentials()[pri:4, instance:LogInPageTest@26275bef]" started-at="2025-10-15T01:41:21 IST" name="testLogInPageWithInvalidCredentials" finished-at="2025-10-15T01:41:24 IST" duration-ms="2343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInPageWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LogInPageTest@26275bef]" started-at="2025-10-15T01:41:24 IST" name="tearDown" finished-at="2025-10-15T01:41:25 IST" duration-ms="1084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:LogInPageTest@26275bef]" started-at="2025-10-15T01:41:25 IST" name="setUp" finished-at="2025-10-15T01:41:29 IST" duration-ms="4692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogInPageWithValidCredentials()[pri:5, instance:LogInPageTest@26275bef]" started-at="2025-10-15T01:41:29 IST" name="testLogInPageWithValidCredentials" finished-at="2025-10-15T01:41:31 IST" duration-ms="1376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInPageWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LogInPageTest@26275bef]" started-at="2025-10-15T01:41:31 IST" name="tearDown" finished-at="2025-10-15T01:41:31 IST" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LogInPageTest -->
+      <class name="PopularPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:PopularPageTest@212b5695]" started-at="2025-10-15T01:39:56 IST" name="setUp" finished-at="2025-10-15T01:40:22 IST" duration-ms="26266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PopularPageUI()[pri:1, instance:PopularPageTest@212b5695]" started-at="2025-10-15T01:40:22 IST" name="PopularPageUI" finished-at="2025-10-15T01:40:26 IST" duration-ms="3365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PopularPageUI -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:PopularPageTest@212b5695]" started-at="2025-10-15T01:40:26 IST" name="teardown" finished-at="2025-10-15T01:40:29 IST" duration-ms="2697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:PopularPageTest@212b5695]" started-at="2025-10-15T01:40:29 IST" name="setUp" finished-at="2025-10-15T01:40:48 IST" duration-ms="19229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="movieSearch()[pri:2, instance:PopularPageTest@212b5695]" started-at="2025-10-15T01:40:48 IST" name="movieSearch" finished-at="2025-10-15T01:40:55 IST" duration-ms="7297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- movieSearch -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:PopularPageTest@212b5695]" started-at="2025-10-15T01:40:55 IST" name="teardown" finished-at="2025-10-15T01:40:58 IST" duration-ms="2972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- PopularPageTest -->
+      <class name="AccountPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:AccountPageTest@793be5ca]" started-at="2025-10-15T01:39:56 IST" name="setUp" finished-at="2025-10-15T01:40:22 IST" duration-ms="25651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestAccountPageUiElements()[pri:1, instance:AccountPageTest@793be5ca]" started-at="2025-10-15T01:40:22 IST" name="TestAccountPageUiElements" finished-at="2025-10-15T01:40:27 IST" duration-ms="4740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAccountPageUiElements -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AccountPageTest@793be5ca]" started-at="2025-10-15T01:40:27 IST" name="tearDown" finished-at="2025-10-15T01:40:29 IST" duration-ms="1920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:AccountPageTest@793be5ca]" started-at="2025-10-15T01:40:29 IST" name="setUp" finished-at="2025-10-15T01:40:47 IST" duration-ms="18018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LogOutFunctionality()[pri:2, instance:AccountPageTest@793be5ca]" started-at="2025-10-15T01:40:47 IST" name="LogOutFunctionality" finished-at="2025-10-15T01:40:49 IST" duration-ms="2364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AccountPageTest@793be5ca]" started-at="2025-10-15T01:40:49 IST" name="tearDown" finished-at="2025-10-15T01:40:52 IST" duration-ms="2852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AccountPageTest -->
+      <class name="HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:HomePageTest@29d89d5d]" started-at="2025-10-15T01:39:56 IST" name="setUp" finished-at="2025-10-15T01:40:22 IST" duration-ms="25836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestHomePageHeading()[pri:1, instance:HomePageTest@29d89d5d]" started-at="2025-10-15T01:40:22 IST" name="TestHomePageHeading" finished-at="2025-10-15T01:40:25 IST" duration-ms="2836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestHomePageHeading -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:HomePageTest@29d89d5d]" started-at="2025-10-15T01:40:25 IST" name="tearDown" finished-at="2025-10-15T01:40:29 IST" duration-ms="3648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:HomePageTest@29d89d5d]" started-at="2025-10-15T01:40:29 IST" name="setUp" finished-at="2025-10-15T01:40:48 IST" duration-ms="19257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTrendingAndOriginalMoviesDisplayed()[pri:2, instance:HomePageTest@29d89d5d]" started-at="2025-10-15T01:40:48 IST" name="testTrendingAndOriginalMoviesDisplayed" finished-at="2025-10-15T01:40:49 IST" duration-ms="853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTrendingAndOriginalMoviesDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:HomePageTest@29d89d5d]" started-at="2025-10-15T01:40:49 IST" name="tearDown" finished-at="2025-10-15T01:40:51 IST" duration-ms="2583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:HomePageTest@29d89d5d]" started-at="2025-10-15T01:40:51 IST" name="setUp" finished-at="2025-10-15T01:41:08 IST" duration-ms="17064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testContactUsDisplayed()[pri:3, instance:HomePageTest@29d89d5d]" started-at="2025-10-15T01:41:08 IST" name="testContactUsDisplayed" finished-at="2025-10-15T01:41:10 IST" duration-ms="1790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactUsDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:HomePageTest@29d89d5d]" started-at="2025-10-15T01:41:10 IST" name="tearDown" finished-at="2025-10-15T01:41:13 IST" duration-ms="2652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:HomePageTest@29d89d5d]" started-at="2025-10-15T01:41:13 IST" name="setUp" finished-at="2025-10-15T01:41:23 IST" duration-ms="10186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="MovieTestFunctionalityLinkCount()[pri:4, instance:HomePageTest@29d89d5d]" started-at="2025-10-15T01:41:23 IST" name="MovieTestFunctionalityLinkCount" finished-at="2025-10-15T01:41:23 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MovieTestFunctionalityLinkCount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:HomePageTest@29d89d5d]" started-at="2025-10-15T01:41:23 IST" name="tearDown" finished-at="2025-10-15T01:41:24 IST" duration-ms="1371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:HomePageTest@29d89d5d]" started-at="2025-10-15T01:41:24 IST" name="setUp" finished-at="2025-10-15T01:41:30 IST" duration-ms="5272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="MovieTestActiveSlideCount()[pri:5, instance:HomePageTest@29d89d5d]" started-at="2025-10-15T01:41:30 IST" name="MovieTestActiveSlideCount" finished-at="2025-10-15T01:41:30 IST" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MovieTestActiveSlideCount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:HomePageTest@29d89d5d]" started-at="2025-10-15T01:41:30 IST" name="tearDown" finished-at="2025-10-15T01:41:30 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:HomePageTest@29d89d5d]" started-at="2025-10-15T01:41:30 IST" name="setUp" finished-at="2025-10-15T01:41:34 IST" duration-ms="3807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="MovieTestPrintPosterTest()[pri:6, instance:HomePageTest@29d89d5d]" started-at="2025-10-15T01:41:34 IST" name="MovieTestPrintPosterTest" finished-at="2025-10-15T01:41:35 IST" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MovieTestPrintPosterTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:HomePageTest@29d89d5d]" started-at="2025-10-15T01:41:35 IST" name="tearDown" finished-at="2025-10-15T01:41:35 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:HomePageTest@29d89d5d]" started-at="2025-10-15T01:41:35 IST" name="setUp" finished-at="2025-10-15T01:41:38 IST" duration-ms="3501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="MovieTestIsDunePosterVisible()[pri:7, instance:HomePageTest@29d89d5d]" started-at="2025-10-15T01:41:38 IST" name="MovieTestIsDunePosterVisible" finished-at="2025-10-15T01:41:38 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MovieTestIsDunePosterVisible -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:HomePageTest@29d89d5d]" started-at="2025-10-15T01:41:38 IST" name="tearDown" finished-at="2025-10-15T01:41:39 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:HomePageTest@29d89d5d]" started-at="2025-10-15T01:41:39 IST" name="setUp" finished-at="2025-10-15T01:41:42 IST" duration-ms="3634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="MovieTestisSlideIndexThreeVisible()[pri:8, instance:HomePageTest@29d89d5d]" started-at="2025-10-15T01:41:42 IST" name="MovieTestisSlideIndexThreeVisible" finished-at="2025-10-15T01:41:42 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MovieTestisSlideIndexThreeVisible -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:HomePageTest@29d89d5d]" started-at="2025-10-15T01:41:42 IST" name="tearDown" finished-at="2025-10-15T01:41:42 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:HomePageTest@29d89d5d]" started-at="2025-10-15T01:41:42 IST" name="setUp" finished-at="2025-10-15T01:41:49 IST" duration-ms="6025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Buttonclick()[pri:9, instance:HomePageTest@29d89d5d]" started-at="2025-10-15T01:41:49 IST" name="Buttonclick" finished-at="2025-10-15T01:41:49 IST" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Buttonclick -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:HomePageTest@29d89d5d]" started-at="2025-10-15T01:41:49 IST" name="tearDown" finished-at="2025-10-15T01:41:49 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- HomePageTest -->
+      <class name="HeaderSection">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:HeaderSection@3514a4c0]" started-at="2025-10-15T01:39:56 IST" name="setUp" finished-at="2025-10-15T01:40:19 IST" duration-ms="22918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="HeaderSectionUI()[pri:1, instance:HeaderSection@3514a4c0]" started-at="2025-10-15T01:40:19 IST" name="HeaderSectionUI" finished-at="2025-10-15T01:40:24 IST" duration-ms="5036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HeaderSectionUI -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:HeaderSection@3514a4c0]" started-at="2025-10-15T01:40:24 IST" name="tearDown" finished-at="2025-10-15T01:40:29 IST" duration-ms="4359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:HeaderSection@3514a4c0]" started-at="2025-10-15T01:40:29 IST" name="setUp" finished-at="2025-10-15T01:40:45 IST" duration-ms="16140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="HeaderSectionFunctionalities()[pri:2, instance:HeaderSection@3514a4c0]" started-at="2025-10-15T01:40:45 IST" name="HeaderSectionFunctionalities" finished-at="2025-10-15T01:40:46 IST" duration-ms="975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HeaderSectionFunctionalities -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:HeaderSection@3514a4c0]" started-at="2025-10-15T01:40:46 IST" name="tearDown" finished-at="2025-10-15T01:40:51 IST" duration-ms="5583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- HeaderSection -->
+    </test> <!-- LoginAndHomePageTest -->
+  </suite> <!-- MovieAppTestSuite -->
+</testng-results>
